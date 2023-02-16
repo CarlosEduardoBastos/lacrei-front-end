@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 import { Plugin, NewPlugin } from 'pretty-format';
 
 declare global {
