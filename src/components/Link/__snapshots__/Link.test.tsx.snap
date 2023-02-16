@@ -1,10 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Link /> should match snapshot 1`] = `
+.c0 {
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  padding: 0 1.25rem;
+  line-height: 22px;
+}
+
+.c0:hover {
+  color: #5d5d5d;
+}
+
+.c0.active {
+  color: #018762;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 14px;
+    padding: 0 0.625rem;
+  }
+}
+
 <div>
   <a
     aria-current="page"
-    class="sc-bcXHqe bbSZFN active"
+    class="c0 active"
     href="/"
   >
     Home

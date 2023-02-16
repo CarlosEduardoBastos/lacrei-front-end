@@ -1,44 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> should match snapshot 1`] = `
+.c4 {
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  padding: 0 1.25rem;
+  line-height: 22px;
+}
+
+.c4:hover {
+  color: #5d5d5d;
+}
+
+.c4.active {
+  color: #018762;
+}
+
+.c0 {
+  max-width: 85.375rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.c2 .c3 {
+  opacity: 0.7;
+}
+
+.c2 .c3.active {
+  color: #1f1f1f;
+  opacity: 1;
+}
+
+.c5 {
+  margin: 24px 0;
+}
+
+.c6 {
+  padding: 0 1.25rem;
+}
+
+.c7 {
+  font-size: 0.75rem;
+  color: #515151;
+}
+
+.c1 {
+  border-top: 1px solid #b0e0d3;
+  padding-top: 2rem;
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 14px;
+    padding: 0 0.625rem;
+  }
+}
+
 <div>
   <footer
-    class="sc-dkrFOg dWFzeR"
+    class=""
   >
     <div
-      class="sc-gswNZR iVFiJP"
+      class="c0"
     >
       <div
-        class="sc-iBYQkv cZevoC"
+        class="c1"
       >
         <div
-          class="sc-hLBbgP kGofFU"
+          class="c2"
         >
           <a
             aria-current="page"
-            class="sc-bcXHqe bbSZFN active"
+            class="c3 c4 active"
             href="/"
           >
             Home
           </a>
           <a
-            class="sc-bcXHqe bbSZFN"
+            class="c3 c4"
             href="/user-person"
           >
             Pessoa Usuária
           </a>
           <a
-            class="sc-bcXHqe bbSZFN"
+            class="c3 c4"
             href="/Profissional"
           >
             Profissional
           </a>
         </div>
         <div
-          class="sc-eDvSVe jYeJKo"
+          class="c5"
         >
           <a
-            class="sc-jSUZER laPvMj"
+            class="c6"
             href="https://www.instagram.com/lacrei.saude"
             target="_blank"
           >
@@ -48,7 +106,7 @@ exports[`<Footer /> should match snapshot 1`] = `
             />
           </a>
           <a
-            class="sc-jSUZER laPvMj"
+            class="c6"
             href="https://www.facebook.com/lacrei.saude"
             target="_blank"
           >
@@ -58,7 +116,7 @@ exports[`<Footer /> should match snapshot 1`] = `
             />
           </a>
           <a
-            class="sc-jSUZER laPvMj"
+            class="c6"
             href="https://www.linkedin.com/company/lacrei"
             target="_blank"
           >
@@ -69,7 +127,7 @@ exports[`<Footer /> should match snapshot 1`] = `
           </a>
         </div>
         <p
-          class="sc-gKPRtg jBtCR"
+          class="c7"
         >
           Desafio Front-end Lacrei
         </p>
