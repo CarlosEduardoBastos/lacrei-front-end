@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> should match snapshot 1`] = `
+<div>
+  <a
+    aria-current="page"
+    class="sc-bcXHqe bbSZFN active"
+    href="/"
+  >
+    Home
+  </a>
+</div>
+`;
