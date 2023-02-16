@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+<div>
+  <footer
+    class="sc-dkrFOg dWFzeR"
+  >
+    <div
+      class="sc-gswNZR cWdAwU"
+    >
+      <div
+        class="sc-iBYQkv cZevoC"
+      >
+        <div
+          class="sc-hLBbgP kGofFU"
+        >
+          <a
+            aria-current="page"
+            class="sc-bcXHqe bbSZFN active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="sc-bcXHqe bbSZFN"
+            href="/user-person"
+          >
+            Pessoa Usuária
+          </a>
+          <a
+            class="sc-bcXHqe bbSZFN"
+            href="/Profissional"
+          >
+            Profissional
+          </a>
+        </div>
+        <div
+          class="sc-eDvSVe jYeJKo"
+        >
+          <a
+            class="sc-jSUZER laPvMj"
+            href="https://www.instagram.com/lacrei.saude"
+            target="_blank"
+          >
+            <img
+              alt="Instagram"
+              src="instagram.svg"
+            />
+          </a>
+          <a
+            class="sc-jSUZER laPvMj"
+            href="https://www.facebook.com/lacrei.saude"
+            target="_blank"
+          >
+            <img
+              alt="Facebook"
+              src="facebook.svg"
+            />
+          </a>
+          <a
+            class="sc-jSUZER laPvMj"
+            href="https://www.linkedin.com/company/lacrei"
+            target="_blank"
+          >
+            <img
+              alt="Linkedin"
+              src="linkedin.svg"
+            />
+          </a>
+        </div>
+        <p
+          class="sc-gKPRtg jBtCR"
+        >
+          Desafio Front-end Lacrei
+        </p>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
