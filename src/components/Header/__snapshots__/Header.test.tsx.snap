@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match snapshot 1`] = `
+.c6 {
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  padding: 0 1.25rem;
+  line-height: 22px;
+}
+
+.c6:hover {
+  color: #5d5d5d;
+}
+
+.c6.active {
+  color: #018762;
+}
+
+.c4 {
+  font-size: 2rem;
+  color: #018762;
+  font-weight: 700;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  line-height: 44px;
+}
+
+.c4:hover {
+  color: #48A58C;
+}
+
+.c2 {
+  max-width: 85.375rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.c0 {
+  width: 100%;
+  background: #eeeeee;
+  padding: 0.5rem 4rem;
+}
+
+.c0 .c1 {
+  padding: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    font-size: 14px;
+    padding: 0 0.625rem;
+  }
+}
+
+@media (max-width:520px) {
+  .c3 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <div
+      class="c1 c2"
+    >
+      <div
+        class="c3"
+      >
+        <a
+          class="c4"
+          href="/"
+        >
+          Lacrei
+        </a>
+        <ul
+          class="c5"
+        >
+          <a
+            aria-current="page"
+            class="c6 active"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="c6"
+            href="/user-person"
+          >
+            Pessoa Usuária
+          </a>
+          <a
+            class="c6"
+            href="/profissional"
+          >
+            Profissional
+          </a>
+        </ul>
+      </div>
+    </div>
+  </header>
+</div>
+`;
