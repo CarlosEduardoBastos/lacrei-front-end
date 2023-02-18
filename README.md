@@ -1,3 +1,7 @@
+# Iniciando o projeto
+
+Link: https://lacrei-front-end.vercel.app/
+
 ## Instalando:
 
 Para iniciar o projeto temos que clonar o projeto, logo em seguida ir para a pasta do projeto e digitar o comando " npm install " Para instalar os pacotes e digitar o comando " npm start " para rodar o projeto.
@@ -9,3 +13,4 @@ Para ver melhor os components podemos acessar o storybook do projeto, basta digi
 ## Rodando os testes:
 
 Para rodar os testes basta rodar o comando " npm test " .
+
